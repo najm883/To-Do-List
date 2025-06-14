@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Sans+JP:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-font-family : 'Poppins',sans serif;
+    --light-white : #f5f8fa;
+    --gray : #5e6278;
+    --gray-1 : #e3e3e3;
+
+}
+body{
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+     background-image: url(login.avif);
+    background-size: cover;
+    background-position: center
+}
+.wrapper{
+     padding: 10px 0 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.wrapper .logo img{
+    max-width: 80%;
+    max-height: 60%;
+}
+.wrapper input{
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);}
+.google{
+    max-width: 8%;
+}
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .submit_btn{
+    padding: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper .login_with{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+}
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus{
+    box-shadow: none;
+}
+.wrapper .login_with:hover{
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+}
+#con{
+    border-radius: 5px;
+   background-image: url(l.jpg);
+ 
+}
+#conx{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
